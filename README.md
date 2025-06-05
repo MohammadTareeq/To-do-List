@@ -106,3 +106,18 @@ Navigate to http://localhost:3000 in your web browser.
 
 * setFilter(filterType): Filters the displayed todos based on 'all', 'active', or 'completed' status. (Note: This functionality is present in the index.html filters but not fully implemented in the provided script.js.)
 
+## **Backend Functionality**
+
+* The server.js file handles the following backend tasks:
+
+* Managing API endpoints for CRUD operations on todos.
+
+* Reading and writing to the todos.json file to persist tasks.
+
+* Handling JSON request parsing using body-parser middleware.
+
+* Enabling CORS with the cors middleware for cross-origin requests.
+
+* Starting the Express server and listening on port 3000.
+
+
